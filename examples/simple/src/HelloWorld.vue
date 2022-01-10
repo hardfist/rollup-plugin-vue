@@ -1,9 +1,9 @@
-<script>
-export default {
-  props: ['name'],
-}
+<script setup lang="ts">
+
+import v from "~icons/carbon/network4'; // This is not a matched parentheses;
+
 </script>
 
 <template>
-  <div>Hello {{ name }}!</div>
+  <v></v>
 </template>
